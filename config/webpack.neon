@@ -1,0 +1,13 @@
+extensions:
+	webpack: Oops\WebpackNetteAdapter\DI\WebpackExtension(%debugMode%)
+
+webpack:
+	build:
+		directory: %rootDir%/public/dist
+		publicPath: /
+
+	devServer:
+		url: http://localhost:3500
+
+	manifest:
+		name: manifest.json

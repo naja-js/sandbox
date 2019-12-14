@@ -1,0 +1,15 @@
+{layout @layout.latte}
+
+{block #title}Form{/block}
+
+{block #content}
+
+{control form}
+
+<div n:snippet="result" n:inner-if="$formResult">
+	You've entered: {$formResult}
+</div>
+
+<hr>
+
+<a n:href="default" class="ajax">Take me back</a>

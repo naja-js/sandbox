@@ -1,0 +1,29 @@
+{
+	"type": "project",
+	"license": "MIT",
+	"require": {
+		"php": "^7.4",
+		"latte/latte": "^2.5",
+		"nette/application": "^3.0",
+		"nette/bootstrap": "^3.0",
+		"nette/di": "^3.0",
+		"nette/forms": "^3.0",
+		"nette/utils": "^3.0",
+		"oops/webpack-nette-adapter": "^1.2",
+		"tracy/tracy": "^2.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"Naja\\Sandbox\\": "src/"
+		}
+	},
+	"scripts": {
+		"serve": [
+			"Composer\\Config::disableProcessTimeout",
+			"@php -S 127.0.0.1:8009 -t public/"
+		]
+	},
+	"config": {
+		"sort-packages": true
+	}
+}

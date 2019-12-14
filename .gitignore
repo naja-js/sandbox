@@ -1,0 +1,6 @@
+.idea/
+log/
+node_modules/
+public/dist/
+temp/
+vendor/

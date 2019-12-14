@@ -1,0 +1,9 @@
+includes:
+	- webpack.neon
+
+application:
+	mapping:
+		*: Naja\Sandbox\Application\UI\*Presenter
+
+services:
+	routing.router: Nette\Application\Routers\SimpleRouter(Default:default)
