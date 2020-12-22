@@ -2,14 +2,14 @@
 	"type": "project",
 	"license": "MIT",
 	"require": {
-		"php": "^7.4",
+		"php": "^7.4||^8.0",
+		"contributte/webpack": "^2.0",
 		"latte/latte": "^2.5",
 		"nette/application": "^3.0",
 		"nette/bootstrap": "^3.0",
 		"nette/di": "^3.0",
 		"nette/forms": "^3.0",
 		"nette/utils": "^3.0",
-		"oops/webpack-nette-adapter": "^1.2",
 		"tracy/tracy": "^2.7"
 	},
 	"autoload": {

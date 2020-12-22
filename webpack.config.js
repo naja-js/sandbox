@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const ManifestPlugin = require('webpack-manifest-plugin');
+const {WebpackManifestPlugin} = require('webpack-manifest-plugin');
 
 const isProduction = process.env.NODE_ENV === 'production';
 module.exports = {
@@ -24,7 +24,7 @@ module.exports = {
 		],
 	},
 	plugins: [
-		new ManifestPlugin(),
+		new WebpackManifestPlugin(),
 		new webpack.EnvironmentPlugin('NODE_ENV'),
 	],
 	devServer: {

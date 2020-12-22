@@ -1,5 +1,5 @@
 extensions:
-	webpack: Oops\WebpackNetteAdapter\DI\WebpackExtension(%debugMode%)
+	webpack: Contributte\Webpack\DI\WebpackExtension(%debugMode%)
 
 webpack:
 	build:

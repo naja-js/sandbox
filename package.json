@@ -9,16 +9,15 @@
 	"devDependencies": {
 		"@babel/core": "^7.7.5",
 		"@babel/plugin-transform-runtime": "^7.7.6",
-		"@babel/polyfill": "^7.7.0",
 		"@babel/preset-env": "^7.7.6",
 		"babel-loader": "^8.0.6",
-		"webpack": "^4.41.2",
-		"webpack-cli": "^3.3.10",
+		"webpack": "^5.11.0",
+		"webpack-cli": "^4.2.0",
 		"webpack-dev-server": "^3.9.0",
-		"webpack-manifest-plugin": "^2.2.0"
+		"webpack-manifest-plugin": "^3.0.0"
 	},
 	"scripts": {
 		"build": "NODE_ENV=production webpack",
-		"serve": "NODE_ENV=development webpack-dev-server"
+		"serve": "NODE_ENV=development webpack serve"
 	}
 }
