@@ -56,7 +56,7 @@ final class DefaultPresenter extends Presenter
 		$form->addSubmit('Send');
 
 		$form->elementPrototype->setAttribute('class', 'ajax');
-		$form->onSuccess[] = \Closure::fromCallable([$this, 'processForm']);
+		$form->onSuccess[] = $this->processForm(...);
 		return $form;
 	}
 

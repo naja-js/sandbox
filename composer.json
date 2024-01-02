@@ -2,15 +2,15 @@
 	"type": "project",
 	"license": "MIT",
 	"require": {
-		"php": "^7.4||^8.0",
-		"contributte/webpack": "^2.0",
-		"latte/latte": "^2.5",
-		"nette/application": "^3.0",
-		"nette/bootstrap": "^3.0",
-		"nette/di": "^3.0",
-		"nette/forms": "^3.0",
-		"nette/utils": "^3.0",
-		"tracy/tracy": "^2.7"
+		"php": "^8.2",
+		"contributte/webpack": "^2.2",
+		"latte/latte": "^3.0",
+		"nette/application": "^3.1",
+		"nette/bootstrap": "^3.2",
+		"nette/di": "^3.1",
+		"nette/forms": "^3.1",
+		"nette/utils": "^4.0",
+		"tracy/tracy": "^2.10"
 	},
 	"autoload": {
 		"psr-4": {
