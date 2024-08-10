@@ -2492,10 +2492,10 @@ multicast-dns@^7.2.5:
     dns-packet "^5.2.2"
     thunky "^1.0.2"
 
-naja@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/naja/-/naja-2.6.1.tgz#cb25cb0464b6b7722d9613049ae8e4769e6ca482"
-  integrity sha512-xLZPRJeOr6R3Zr5epRDSIzNzsb0RJ9T6LWhcNQbbarMLXQX+O26o1SEENsJ1NWFJfbJe1dWtv+iEiSShSHQZfA==
+naja@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/naja/-/naja-3.2.0.tgz#2fbea7ec9589690332a2e340704b12076c8e3a08"
+  integrity sha512-FVWmplye0tX0hgZPHsz5kKqSIMGiR5H2nTVBEgzClH3gioIY1S69yiHqSGP4r0oncV1VQ/028Rn1CdyhirqLRg==
 
 negotiator@0.6.3:
   version "0.6.3"
